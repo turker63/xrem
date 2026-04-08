@@ -1,5 +1,5 @@
 "use client";
-
+// VIP Transfer Fix - 001
 import { useEffect, useState, Suspense } from "react";
 import { supabase } from "@/lib/supabase";
 import Navbar from "@/components/Navbar";
@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import { motion, AnimatePresence } from "framer-motion";
 import { 
   User, Fingerprint, Phone, Mail, KeyRound, Settings2, ShieldCheck, 
-  Ticket, MapPin, Flag, Calendar, Clock, Car, ChevronRight, X, Printer, 
+  Ticket, MapPin, Flag, Calendar, Car, ChevronRight, X, Printer, 
   LayoutDashboard, CreditCard, LogOut, BellRing, Settings
 } from "lucide-react";
 
